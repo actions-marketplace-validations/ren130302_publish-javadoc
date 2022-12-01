@@ -1,0 +1,15 @@
+name: 'Publish JavaDoc'
+
+on:
+  push:
+    paths: [ '**.java']
+  
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+     - name: Publish JavaDoc
+       uses: ren130302/publish-javadoc@test
