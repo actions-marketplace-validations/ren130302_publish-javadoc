@@ -1,6 +1,6 @@
 # Publish JavaDoc
 
-```
+```yml
 name: 'Publish JavaDoc'
 
 on:
