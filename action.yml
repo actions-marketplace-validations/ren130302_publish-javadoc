@@ -21,6 +21,7 @@ runs:
         cache: maven
 
     - name: Generate JavaDoc
+      shell: bash
       run: mvn javadoc:javadoc
       continue-on-error: true
 
