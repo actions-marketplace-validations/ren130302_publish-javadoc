@@ -1,2 +1,10 @@
+name: 'Publish JavaDoc'
+author: 'ren130302'
+description: 'Automatically generates a JavaDoc in the Maven environment and publishes it on a GitHub page.'
+
+branding:
+  icon: "link"
+  color: "green"
+
 runs:
   using: 'composite'
