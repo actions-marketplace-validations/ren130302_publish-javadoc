@@ -32,7 +32,7 @@ runs:
       uses: actions/upload-pages-artifact@v1
       with:
         # Upload entire repository
-        path: '/home/runner/work/ASAP/ASAP/target/site/apidocs'
+        path: '/home/runner/work/${GITHUB_REPOSITORY}/${GITHUB_REPOSITORY}/target/site/apidocs'
 
     - name: Deploy to GitHub Pages
       id: deployment
